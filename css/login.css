@@ -1,0 +1,120 @@
+/*SIGN-UP STYLES*/
+
+.signup_container{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    width: 360px;
+    height: 650px;
+    margin: auto;
+    border-radius:5px;
+    font-size:20px;
+    color:black;
+}
+
+h1{
+    text-align: center;
+    padding-top:15px;
+}
+
+form{
+    margin-left: 20px;
+    margin-right:20px;
+    margin-top: 20px;
+    
+}
+
+.formdivider{
+    line-height: 20px;
+    
+}
+
+form label{
+    display: flex;
+    margin-top: 15px;
+    font-size: 13px;
+    color: black;
+}
+
+form input{
+    width:100%;
+    font-size:15px;
+    color: black;
+    padding:7px;
+    border:none;
+    border: 1.5px solid #d0d0d0;
+    border-radius: 4px;
+    outline: none;
+    box-shadow: 1.5px 1.5px #696969;
+}
+
+input[type=submit]{
+    width: 200px;
+    height:35px;
+    margin-top:20px;
+    margin-left:18%;
+    margin-bottom:3px;
+    border:none;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    
+}
+
+p{
+    color:gray;
+    text-align: center;
+    font-size:15px;
+    margin-top: 10px;
+}
+
+.login a{
+    text-align:center;
+    color:	#4169E1;
+
+}
+.success{
+    background-color: #AFE1AF;
+    text-align:center;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-size: 15px;
+    font-style: italic;
+    color:green;
+}
+
+/*LOGIN */
+
+.login_container{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    width: 360px;
+    height: 420px;
+    margin:auto;
+    padding-top:30px;
+    border-radius:5px;
+    font-size:20px;
+    color:black;
+}
+
+.signup a{
+    text-align:center;
+    color:#4169E1;
+
+}
+
+.invalid{
+    font-size:15px;
+    font-style:italic;
+    text-align:center;
+    margin:0px;
+    color:red;
+}
+
+form label[for="pwreq"]{
+    font-size:11px;
+    font-style:italic;
+    margin-top:-5px;
+    color:black;
+}
